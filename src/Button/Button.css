@@ -1,0 +1,20 @@
+.Button {
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  border-left: solid 4px #668ad8;
+  border-right: solid 4px #668ad8;
+  color: #668ad8;
+  background: #e1f3ff;
+  transition: 0.4s;
+  width: 50%;
+  text-align: center;
+  margin: 10px 20%;
+}
+
+.Button:hover {
+  background: #668ad8;
+  color: #fff;
+}
