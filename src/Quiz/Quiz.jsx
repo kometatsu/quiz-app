@@ -121,13 +121,13 @@ class Quiz extends React.Component {
       <div>
         <h1>クイズページ</h1>
         <div>
-          <p id="result">{`${numberOfCorrects}/${quizzes.length} corrects.`}</p>
+          <p id="result">{`${quizzes.length}問中 ${numberOfCorrects}問　正解！！`}</p>
           <Button
             onClickHandler={() => {
               this.restart();
             }}
           >
-            Restart
+            最初から
           </Button>
         </div>
         <hr />

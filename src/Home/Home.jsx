@@ -10,7 +10,7 @@ const Home = ({ history }) => {
           history.push("/quiz");
         }}
       >
-        クイズページへ移動
+        クイズを始める
       </Button>
     </div>
   );
